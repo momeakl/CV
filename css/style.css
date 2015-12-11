@@ -157,7 +157,7 @@ section.message2 div.img{
     width: 18em;
     border-radius: 50%;
     margin: 1em 1em 1em 3em;
-    background:  url(../img/gaobing.png) no-repeat 15px 16px;
+    background:  url(http://7xonct.com1.z0.glb.clouddn.com/CV/gaobing.png) no-repeat 15px 16px;
     background-size: 17em;
     border: 0.6em solid rgba(225,225,225, .3);
     
@@ -609,7 +609,7 @@ div.skills{
   -webkit-transform-origin: 0 100%;
       -ms-transform-origin: 0 100%;
           transform-origin: 0 100%;
-  background-image: url("../img/dasheng.jpg");
+  background-image: url("http://7xonct.com1.z0.glb.clouddn.com/CV/dasheng.jpg");
   background-position: right;
 }
 
@@ -636,7 +636,7 @@ div.skills{
 .top .photo{
     width: 100%;
     height: 80%;
-    background-image: url(../img/designer&coder.png);
+    background-image: url(http://7xonct.com1.z0.glb.clouddn.com/CV/designer&coder.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30em;
