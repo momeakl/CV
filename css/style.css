@@ -153,13 +153,28 @@ section.message2{
     position: relative;
 }
 section.message2 div.img{
-    height: 18em;
-    width: 18em;
+    height: 16em;
+    width: 16em;
     border-radius: 50%;
-    margin: 1em 1em 1em 3em;
+    margin: 2.8em 1em 1em 3em;
     background:  url(http://7xonct.com1.z0.glb.clouddn.com/CV/gaobing.png) no-repeat 15px 16px;
-    background-size: 17em;
+    background-size: 14em;
+    background-position: bottom;
     border: 0.6em solid rgba(225,225,225, .3);
+    
+}
+section.message2 dl{
+    margin-top: -1em;
+}
+@media screen and (min-width: 1600px){
+    section.message2 div.img{
+        height: 17em;
+        widows: 17em;
+        background-size: 15em;
+    }
+    section.message2 dl{
+        margin-right: 5em;
+    }
     
 }
 section.message2 div.img:hover,
