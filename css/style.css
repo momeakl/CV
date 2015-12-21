@@ -247,21 +247,22 @@ section.message2 div.img:hover,
 .message2 dl dd:last-of-type{
     border-bottom:none;
 }
-.decorationR{
+dl:before,
+dl:after{
     position: absolute;
-    right: 0;
-    top: 0;
+    content: '';
     width: 3em;
     height: 3em;
+}
+dl:before{
+    right: 0;
+    top: 0;
     border-top: 1px solid #fff;
     border-right: 1px solid #fff;
 }
-.decorationL{
-    position: absolute;
+dl:after{
     left: 0;
     bottom: 0;
-    width: 3em;
-    height: 3em;
     border-left: 1px solid #fff;
     border-bottom: 1px solid #fff;
 }
@@ -296,29 +297,6 @@ section::before, section::after {
     position: absolute;
 }
 .htmleaf-header{width: 100vw;height: 100vh;}
-/**last page**/
-
-/*.related > a {
-  vertical-align: top;
-  width: calc(100% - 20px);
-  max-width: 340px;
-  display: inline-block;
-  text-align: center;
-  margin: 20px 10px;
-  padding: 25px;
-  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
-}
-.related a {
-  display: inline-block;
-  text-align: left;
-  margin: 20px auto;
-  padding: 10px 20px;
-  opacity: 0.8;
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s;
-  -webkit-backface-visibility: hidden;
-}*/
-
 
 
 .cd-section:nth-of-type(2) > div {
